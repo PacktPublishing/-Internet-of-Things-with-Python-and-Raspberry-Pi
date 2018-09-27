@@ -1,38 +1,47 @@
-# AWS Certified DevOps Engineer - Domain 1 [Video]
-This is the code repository for [AWS Certified DevOps Engineer - Domain 1 [Video]](https://www.packtpub.com/virtualization-and-cloud/aws-certified-devops-engineer-domain-1-video?utm_source=github&utm_medium=repository&utm_campaign=9781789133080), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+# Internet of Things with Python and Raspberry Pi [Video]
+This is the code repository for [	Internet of Things with Python and Raspberry Pi [Video]](https://www.packtpub.com/hardware-and-creative/internet-things-python-and-raspberry-pi-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
-The course will get you prepared for the AWS DevOps Engineer Certification and teaches you Domain 1 (dealing with Continuous Delivery and Process Automation) in depth. You will be prepared, with detailed advice and tips/tricks, to pass the examination!
+Deploying an end-to-end IoT solution requires the development of smart devices, a reliable and real-time communication channel, and a responsive backend server. An efficient ecosystem first requires developing each component and then precise execution in a robust and foolproof way!
+
+This course starts you off with IoT project development by combining Python and Raspberry Pi and lays a foundation from which you can develop complex real-world projects. You will learn to build a motion-detecting anti-theft device that sends real-time data to you remotely to signal intruder activity in your house. This course then teaches you to build an IoT server in Python-Flask, allowing your users to log in securely and access their devices. It is based on the publish and subscribe model, which assures authentic user database. You will learn synchronous and asynchronous encryption techniques and protocols that fortify your IoT system. . Finally, you will build an atmosphere monitoring system with the ability of energy saving functionality, using infrared sensors, motion sensors, and ADC. The system will alert and detect ambient atmospheric conditions.
+
+By the end of the course, you will have built a secure ecosystem of interconnected devices that will upgrade your skills to build much complex projects using Python and Raspberry Pi in real-world scenarios!
 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Learn the principles you need to be an AWS Certified DevOps Engineer 
-<LI>Get an in-depth understanding of the CI/CD approach in AWS 
-<LI>Understand infrastructure deployments through CloudFormation 
-<LI>Understand deployment pipelines through Elastic Beanstalk 
-<LI>Understand deployment pipelines through OpsWorks 
-<LI>Confidently pass the AWS DevOps Certification </LI></UL></DIV>
+<LI>Discover characteristics to consider before building an IoT smart device
+<LI>Build a Raspberry Pi-based smart device by connecting different sensors and actuators. 
+<LI>Pre-design the project architecture by using IoT communication models
+<LI>Realize the disadvantages of AJAX long polling for real-time applications and master Internet of Things communication protocols such as MQTT and WebSockets.
+<LI>Build real-time, full-stack web development in Python Flask.
+<LI>Execute a responsive web-based dashboard UI with real-time graphs and control switches using Bootstrap and JavaScript. 
+<LI>Understand and implement AES and RSA message encryption, digital signatures, and the TLS/SSL/HTTPS protocol to secure your devices and users connected to Internet of Things projects.
+<LI>Gain hands-on experience with the best known cloud provider, AWS, to deploy your IoT Project </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
-To fully benefit from the coverage included in this course, you will need:<br/>
-This course is targeted at system administrators and DevOps Engineers looking to take the AWS Certified DevOps Engineer examination. If you want to pass the bar with flying colors and become an AWS Certified DevOps Engineer Professional, then this course is for you.
+A basic knowledge of electronics and programming syntax is required. This course is for IoT enthusiasts and budding developers looking to enhance their skills in developing smart projects using Python and JavaScript with the Raspberry Pi board. If you are keen to enhance your Python knowledge and develop real-world IoT projects, then look no further!
 ### Technical Requirements
-This course has the following software requirements:<br/>
+This course has the following requirements:<br/>
 <b>Minimum Hardware Requirements</b><br>
-For successful completion of this course, students will require the computer systems with at least the following:
-<br><ul><li>OS: Any</li><li>Processor: 2 core</li><li>Memory: 4 GB RAM</li><li>Storage: 10 GB free storage</li></ul>
+
+<br><ul><li>Raspberry Pi 3</li><li>Raspberry Pi HDMI cable</li><li>Raspberry Pi pins connector</li><li>BreadBoard</li><li>Universal Male to Male / Male to Female / Female to Female DuPont Cables Set for Arduino</li><li>motion PIR sensor</li><li>temperature and humidity sensor DHT11</li><li>ADC IC MCP3008/4, LRD </li></ul>
+
+<br/>
+<b>Software requirements</b><br>
+<br><ul><li>PyCharm or any other Python IDE</li><li>Flask, flask_oauth, flask_sqlalchemy, flask_sslify</li><li>MySQL, MySQL Workbench</li><li>Account in AWS (12 month free tier will be sufficient)</li></ul>
 
 Recommended Hardware Requirements</b><br>
 For an optimal experience with hands-on labs and other practical activities, we recommend the following configuration:
-<ul><li>Processor: Dual core</li><li>Memory: 4 GB RAM</li><li>Storage: 10 GB free storage</li></ul>
+<ul><li>Processor: Intel processor with support for Intel VT-x, Intel EM64T (Intel 64), and Execute Disable (XD) Bit functionality and an Android device to test with (Android 6.0 or higher)</li><li>Memory: 8GB</li><li>Storage: 4GB of available disk space</li></ul>
 
-<b>Software Requirements</b><br><ul><li>Operating system: Windows, Linux, MAC</li><li>Browser: Any</li><li>Code Editor: Atom</li><li>AWS account</li></ul>
+<b>Software Requirements</b><br><ul><li>OS: Windows 10 (64-bit)/Mac OS X 10.11.4 (El Capitan)</li><li>Browser: Any</li><li></ul>
 
 ## Related Products
-* [AWS Certified DevOps Engineer - Domain 2 [Video]](https://www.packtpub.com/virtualization-and-cloud/aws-certified-devops-engineer-domain-2-video?utm_source=github&utm_medium=repository&utm_campaign=9781789136104)
+* [Introduction to Internet of Things [Video]](https://www.packtpub.com/virtualization-and-cloud/introduction-internet-things-video)
 
-* [AWS Certified DevOps Engineer - Domain 3 [Video]](https://www.packtpub.com/virtualization-and-cloud/aws-certified-devops-engineer-domain-3-video-0?utm_source=github&utm_medium=repository&utm_campaign=9781789340396)
+* [Raspberry Pi: Make a Bench automation computer [Video]](https://www.packtpub.com/hardware-and-creative/raspberry-pi-make-bench-automation-computer-video)
 
-* [AWS Certified DevOps Engineer - Domain 4 [Video]](https://www.packtpub.com/virtualization-and-cloud/aws-certified-devops-engineer-domain-4-video?utm_source=github&utm_medium=repository&utm_campaign=9781789343564)
+* [Raspberry Pi: Full Stack [Video]](https://www.packtpub.com/hardware-and-creative/raspberry-pi-full-stack-video)
 
