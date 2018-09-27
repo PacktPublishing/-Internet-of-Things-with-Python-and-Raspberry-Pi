@@ -32,11 +32,11 @@ This course has the following requirements:<br/>
 <b>Software requirements</b><br>
 <br><ul><li>PyCharm or any other Python IDE</li><li>Flask, flask_oauth, flask_sqlalchemy, flask_sslify</li><li>MySQL, MySQL Workbench</li><li>Account in AWS (12 month free tier will be sufficient)</li></ul>
 
-Recommended Hardware Requirements</b><br>
+<br/>Recommended Hardware Requirements</b><br>
 For an optimal experience with hands-on labs and other practical activities, we recommend the following configuration:
 <ul><li>Processor: Intel processor with support for Intel VT-x, Intel EM64T (Intel 64), and Execute Disable (XD) Bit functionality and an Android device to test with (Android 6.0 or higher)</li><li>Memory: 8GB</li><li>Storage: 4GB of available disk space</li></ul>
 
-<b>Software Requirements</b><br><ul><li>OS: Windows 10 (64-bit)/Mac OS X 10.11.4 (El Capitan)</li><li>Browser: Any</li><li></ul>
+<b>Software Requirements</b><br><ul><li>OS: Windows 10 (64-bit)/Mac OS X 10.11.4 (El Capitan)</li><li>Browser: Any</li></ul>
 
 ## Related Products
 * [Introduction to Internet of Things [Video]](https://www.packtpub.com/virtualization-and-cloud/introduction-internet-things-video)
