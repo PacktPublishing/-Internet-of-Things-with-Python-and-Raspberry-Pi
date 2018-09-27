@@ -32,7 +32,7 @@ This course has the following requirements:<br/>
 <b>Software requirements</b><br>
 <br><ul><li>PyCharm or any other Python IDE</li><li>Flask, flask_oauth, flask_sqlalchemy, flask_sslify</li><li>MySQL, MySQL Workbench</li><li>Account in AWS (12 month free tier will be sufficient)</li></ul>
 
-<br/>Recommended Hardware Requirements</b><br>
+<b>Recommended Hardware Requirements</b><br>
 For an optimal experience with hands-on labs and other practical activities, we recommend the following configuration:
 <ul><li>Processor: Intel processor with support for Intel VT-x, Intel EM64T (Intel 64), and Execute Disable (XD) Bit functionality and an Android device to test with (Android 6.0 or higher)</li><li>Memory: 8GB</li><li>Storage: 4GB of available disk space</li></ul>
 
