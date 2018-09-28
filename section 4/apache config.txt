@@ -1,0 +1,47 @@
+To configure a new virtual host, add this configuration in Apache directory:
+In terminal go to;
+?	cd /etc/apache2/sites-available/
+create and open a new file using nano;
+?	sudonanoFlaskApp.conf
+and paste the below in FlaskApp.conf file: (change the text in red to your own dns name)
+
+
+<VirtualHost *:80>
+		ServerNamepacktiotserver.tk
+		ServerAdminadmin@packtiotserver.tk
+		ServerAlias www.packtiotserver.tk
+		WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
+		<Directory /var/www/FlaskApp/FlaskApp/>
+			Order allow,deny
+			Allow from all
+		</Directory>
+		Alias /static /var/www/FlaskApp/FlaskApp/static
+		<Directory /var/www/FlaskApp/FlaskApp/static/>
+			Order allow,deny
+			Allow from all
+		</Directory>
+		ErrorLog ${APACHE_LOG_DIR}/error.log
+		LogLevel warn
+		CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+
+
+
+In order to allow Apache server to serve flask application: create a .wsgi file in /var/www/FlaskApp
+?	cd /var/www/FlaskApp
+?	sudonanoflaskapp.wsgi
+Paste this code in the wsgi configuration file:
+
+
+#!/usr/bin/python
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/FlaskApp/")
+
+from FlaskAppimport app as application
+application.secret_key = 'hello123'
+
+
+
